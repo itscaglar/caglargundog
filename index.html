@@ -68,13 +68,15 @@
                         style="--bs-scroll-height: 100px"
                     >
                         <li class="nav-item">
-                            <a class="nav-link" href="#"> Hakkımda </a>
+                            <a class="nav-link" href="/about"> Hakkımda </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"> Projelerim </a>
+                            <a class="nav-link" href="/projects">
+                                Projelerim
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"> Galeri </a>
+                            <a class="nav-link" href="/gallery"> Galeri </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a
@@ -96,13 +98,21 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="#">
-                                        ARKADAŞIM
+                                    <a
+                                        class="dropdown-item"
+                                        href="https://getbootstrap.com/"
+                                        target="_blank"
+                                    >
+                                        Bootstrap
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="#">
-                                        ARKADAŞIM
+                                    <a
+                                        class="dropdown-item"
+                                        href="https://github.com/torvalds"
+                                        target="_blank"
+                                    >
+                                        Torvalds
                                     </a>
                                 </li>
                             </ul>
@@ -158,35 +168,320 @@
         </nav>
         <!-- Navbar End -->
 
-        <div>item 1</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
-        <div>item 2</div>
+        <main>
+            <div
+                id="mainCarousel"
+                class="carousel slide mb-5"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#mainCarousel"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#mainCarousel"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#mainCarousel"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    ></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-slide-content slide-bg-cozy">
+                            <div class="slide-overlay"></div>
+
+                            <div class="container slide-content-wrapper">
+                                <div class="row align-items-center">
+                                    <div
+                                        class="col-md-6 text-center text-md-start mb-4 mb-md-0"
+                                    >
+                                        <h2
+                                            class="display-4 fw-bold text-warning text-shadow-soft"
+                                        >
+                                            Hoş Geldin!
+                                        </h2>
+                                        <p class="fs-4 mt-3 font-retro">
+                                            "Dışarısı soğuk olabilir... <br />
+                                            Sitemde gezinirken biraz ısınmaya ne
+                                            dersin?"
+                                        </p>
+                                        <a
+                                            href="/projects"
+                                            class="btn btn-outline-warning mt-3 rounded-0 px-4"
+                                        >
+                                            <i class="bi bi-cup-hot-fill"></i>
+                                            Projelerime Bak
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 text-center">
+                                        <img
+                                            src="assets/animated/fireplace.gif"
+                                            alt="Şömine"
+                                            class="carousel-feature-img img-style-cozy"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-slide-content slide-bg-hobbies">
+                            <div class="slide-overlay"></div>
+
+                            <div class="container slide-content-wrapper">
+                                <div class="row align-items-center">
+                                    <div
+                                        class="col-md-6 text-center text-md-start mb-4 mb-md-0"
+                                    >
+                                        <h2
+                                            class="display-4 fw-bold text-danger text-shadow-hard"
+                                        >
+                                            Hobilerim
+                                        </h2>
+                                        <p class="fs-4 mt-3 opacity-75">
+                                            "Müzik, fotoğraf ve daha fazlası.<br />
+                                            Kod yazmadığım zamanlarda neler
+                                            yapıyorum?"
+                                        </p>
+                                        <a
+                                            href="/about"
+                                            class="btn btn-outline-danger mt-3 rounded-0 px-4"
+                                        >
+                                            <i class="bi bi-camera-fill"></i>
+                                            Dünyamı Keşfet
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 text-center">
+                                        <img
+                                            src="assets/animated/miffy.gif"
+                                            alt="Müzik ve Sanat"
+                                            class="carousel-feature-img img-style-circle"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-slide-content slide-bg-night">
+                            <div class="slide-overlay"></div>
+
+                            <div class="container slide-content-wrapper">
+                                <div
+                                    class="row align-items-center flex-row-reverse"
+                                >
+                                    <div
+                                        class="col-md-6 text-center text-md-start mb-4 mb-md-0"
+                                    >
+                                        <h2
+                                            class="display-4 fw-bold text-white text-shadow-neon"
+                                        >
+                                            Yol & Sonsuzluk
+                                        </h2>
+                                        <p
+                                            class="fs-4 mt-3 font-retro text-shadow-hard"
+                                        >
+                                            "Dört teker beni taşır,<br />
+                                            İki teker ruhumu..."
+                                        </p>
+                                        <a
+                                            href="/gallery"
+                                            class="btn btn-outline-light mt-3 rounded-0 px-4"
+                                        >
+                                            <i class="bi bi-stars"></i> Galerim
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 text-center">
+                                        <img
+                                            src="assets/animated/moto.gif"
+                                            alt="Motorsiklet"
+                                            class="carousel-feature-img img-style-neon"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#mainCarousel"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Önceki</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#mainCarousel"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Sonraki</span>
+                </button>
+            </div>
+
+            <div class="container mb-5">
+                <div class="row text-center mb-4">
+                    <div class="col">
+                        <h2 class="display-5">Neler Bulacaksınız?</h2>
+                        <p class="lead text-body-secondary">
+                            Sitemdeki bölümlere göz atın.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body text-center">
+                                <div class="fs-1 text-primary mb-3">
+                                    <i class="bi bi-person-circle"></i>
+                                </div>
+                                <h5 class="card-title">Hakkımda</h5>
+                                <p class="card-text">
+                                    Benim hakkımda daha fazla bilgi edinmek,
+                                    eğitim ve kariyer geçmişimi incelemek için
+                                    tıklayın.
+                                </p>
+                                <a
+                                    href="/about"
+                                    class="btn btn-outline-primary"
+                                >
+                                    Profili Gör
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body text-center">
+                                <div class="fs-1 text-success mb-3">
+                                    <i class="bi bi-code-slash"></i>
+                                </div>
+                                <h5 class="card-title">Projelerim</h5>
+                                <p class="card-text">
+                                    Web Programcılığı dersi ve kişisel
+                                    çalışmalarım kapsamında geliştirdiğim
+                                    projeler.
+                                </p>
+                                <a
+                                    href="/projects"
+                                    class="btn btn-outline-success"
+                                >
+                                    İncele
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body text-center">
+                                <div class="fs-1 text-danger mb-3">
+                                    <i class="bi bi-images"></i>
+                                </div>
+                                <h5 class="card-title">Foto Galeri</h5>
+                                <p class="card-text">
+                                    Çektiğim fotoğraflar ve görsellerimin yer
+                                    aldığı galeri bölümü.
+                                </p>
+                                <a
+                                    href="/gallery"
+                                    class="btn btn-outline-danger"
+                                >
+                                    Galeriye Git
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5 text-center">
+                    <div class="col">
+                        <div class="p-5 bg-body-tertiary rounded-3 border">
+                            <h3>Bir Sorunuz mu Var?</h3>
+                            <p>
+                                Benimle iletişime geçmek için aşağıdaki butonu
+                                kullanabilirsiniz.
+                            </p>
+                            <button
+                                type="button"
+                                class="btn btn-primary btn-lg"
+                                data-bs-toggle="modal"
+                                data-bs-target="#contactModal"
+                            >
+                                Mesaj Gönder
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div
+            class="modal fade"
+            id="contactModal"
+            tabindex="-1"
+            aria-labelledby="contactModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="contactModalLabel">
+                            İletişim
+                        </h1>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        Merhaba! Bana ulaşmak için
+                        <a href="/contact">İletişim</a> sayfasındaki formu
+                        kullanabilir veya sosyal medya hesaplarımdan
+                        yazabilirsiniz.
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Kapat
+                        </button>
+                        <a href="/contact" class="btn btn-primary">
+                            İletişim Sayfasına Git
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Footer Start -->
         <footer
             class="bg-body-tertiary text-center text-lg-start mt-5 pt-4 pb-4 border-top"
