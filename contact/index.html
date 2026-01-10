@@ -8,10 +8,10 @@
             href="../assets/favicon.ico"
             type="image/x-icon"
         />
-        <title>Projelerim | Çağlar Gündoğ | ADÜ</title>
+        <title>İletişim | Çağlar Gündoğ | ADÜ</title>
         <meta
             name="description"
-            content="Çağlar Gündoğ'un kişisel web sitesi. Projelerim. Aydın Adnan Menderes Üniversitesi"
+            content="Çağlar Gündoğ'un kişisel web sitesi. İletişim bilgilerim. Aydın Adnan Menderes Üniversitesi"
         />
         <!-- Google tag (gtag.js) -->
         <script
@@ -68,7 +68,7 @@
                             <a class="nav-link" href="/about"> Hakkımda </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="/projects">
+                            <a class="nav-link" href="/projects">
                                 Projelerim
                             </a>
                         </li>
@@ -76,7 +76,9 @@
                             <a class="nav-link" href="/gallery"> Galeri </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/contact"> İletişim </a>
+                            <a class="nav-link active" href="/contact">
+                                İletişim
+                            </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a
@@ -174,213 +176,172 @@
 
         <main class="container py-5">
             <div class="text-center mb-5">
-                <h1 class="display-4 fw-bold text-info">Projelerim</h1>
+                <h1 class="display-4 fw-bold text-success">Bana Ulaşın</h1>
                 <p class="lead text-body-secondary font-retro">
-                    Okul ve okul projelerim
+                    Şikayetleriniz, sorularınız veya sadece bir sohbet için.
                 </p>
             </div>
 
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                <div class="col">
-                    <div
-                        class="card card-border-info h-100 border-0 shadow-sm bg-dark-subtle"
-                    >
-                        <div class="card-body p-4">
-                            <div class="d-flex align-items-center mb-3">
-                                <div
-                                    class="bg-info bg-opacity-10 p-3 rounded-circle text-info me-3"
-                                ></div>
-                                <h5 class="card-title mb-0 fw-bold">
-                                    Kişisel Web Sitesi
-                                </h5>
-                            </div>
-                            <p class="card-text text-secondary">
-                                Şu an gezdiğiniz web sitesi. Bootstrap 5, HTML5
-                                ve CSS3 kullanılarak tasarlandı.
-                            </p>
-                            <div class="mt-auto pt-3">
-                                <span class="badge text-bg-primary">HTML5</span>
-                                <span class="badge text-bg-warning">JS</span>
-                                <span class="badge text-bg-info">
-                                    Bootstrap
-                                </span>
-                                <a
-                                    href="#"
-                                    class="btn btn-sm btn-outline-light float-end"
-                                    >Geziyorsun</a
-                                >
-                            </div>
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="card border-0 shadow-lg bg-dark-subtle h-100">
+                        <div class="card-body p-4 p-md-5">
+                            <h3 class="mb-4 text-white">
+                                <i class="bi bi-envelope-paper-fill me-2"></i
+                                >Mesaj Gönder
+                            </h3>
+                            <form>
+                                <div class="row g-3 mb-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control bg-black bg-opacity-25 border-secondary text-white"
+                                                id="name"
+                                                placeholder="Adınız"
+                                            />
+                                            <label
+                                                for="name"
+                                                class="text-secondary"
+                                                >Adınız</label
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control bg-black bg-opacity-25 border-secondary text-white"
+                                                id="surname"
+                                                placeholder="Soyadınız"
+                                            />
+                                            <label
+                                                for="surname"
+                                                class="text-secondary"
+                                                >Soyadınız</label
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input
+                                        type="email"
+                                        class="form-control bg-black bg-opacity-25 border-secondary text-white"
+                                        id="email"
+                                        placeholder="name@example.com"
+                                    />
+                                    <label for="email" class="text-secondary"
+                                        >E-posta Adresiniz</label
+                                    >
+                                </div>
+
+                                <div class="form-floating mb-4">
+                                    <textarea
+                                        class="form-control bg-black bg-opacity-25 border-secondary text-white"
+                                        placeholder="Mesajınız"
+                                        id="message"
+                                        style="height: 300px"
+                                    ></textarea>
+                                    <label for="message" class="text-secondary"
+                                        >Mesajınız</label
+                                    >
+                                </div>
+
+                                <div class="d-grid">
+                                    <button
+                                        type="button"
+                                        class="btn btn-success btn-lg"
+                                        onclick="alert('Mesajınız gönderilmedi :)')"
+                                    >
+                                        <i class="bi bi-send-fill me-2"></i
+                                        >Gönder
+                                    </button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
 
-                <div class="col">
-                    <div
-                        class="card card-border-primary h-100 border-0 shadow-sm bg-dark-subtle"
-                    >
-                        <div class="card-body p-4">
-                            <div class="d-flex align-items-center mb-3">
-                                <div
-                                    class="bg-primary d-flex align-items-center justify-content-center bg-opacity-10 p-3 rounded-circle text-primary me-3"
-                                ></div>
-                                <h5 class="card-title mb-0 fw-bold">
-                                    Otobüs App
-                                </h5>
+                <div class="col-lg-5">
+                    <div class="d-flex flex-column gap-4 h-100">
+                        <div class="card border-0 shadow bg-body-tertiary">
+                            <div class="card-body p-4">
+                                <h4 class="card-title text-info mb-4">
+                                    İletişim Kanalları
+                                </h4>
+
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="p-3 text-info me-3">
+                                        <i class="bi bi-geo-alt-fill fs-4"></i>
+                                    </div>
+                                    <div>
+                                        <small class="text-secondary d-block"
+                                            >Adres</small
+                                        >
+                                        <span class="fw-medium"
+                                            >ADÜ Merkez Kampüsü,
+                                            Efeler/Aydın</span
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="p-3 text-warning me-3">
+                                        <i
+                                            class="bi bi-envelope-at-fill fs-4"
+                                        ></i>
+                                    </div>
+                                    <div>
+                                        <small class="text-secondary d-block">
+                                            E-posta
+                                        </small>
+                                        <a
+                                            href="mailto:caglar@example.com"
+                                            class="text-decoration-none text-white fw-medium"
+                                            >caglar@mail.com</a
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="d-flex align-items-center">
+                                    <div class="p-3 text-danger me-3">
+                                        <i
+                                            class="bi bi-telephone-fill fs-4"
+                                        ></i>
+                                    </div>
+                                    <div>
+                                        <small class="text-secondary d-block"
+                                            >Telefon</small
+                                        >
+                                        <span class="fw-medium"
+                                            >+90 555 000 00 00</span
+                                        >
+                                    </div>
+                                </div>
                             </div>
-                            <p class="card-text text-secondary">
-                                Basit bir otobüs takip uygulaması.
-                            </p>
-                            <div class="mt-auto pt-3">
-                                <span class="badge text-bg-warning"
-                                    >JavaScript</span
-                                >
-                                <span class="badge text-bg-success">API</span>
-                                <a
-                                    href="#"
-                                    class="btn btn-sm btn-outline-light float-end"
-                                    >Kodu Gör</a
-                                >
-                            </div>
+                        </div>
+
+                        <div
+                            class="card border-0 shadow overflow-hidden flex-grow-1"
+                            style="min-height: 250px"
+                        >
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.97327140001!2d27.851786176434054!3d37.8529708076509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b92b73539a1c9d%3A0x42453e9cdd5dd1b0!2sAdnan%20Menderes%20University!5e1!3m2!1sen!2str!4v1768064684408!5m2!1sen!2str"
+                                width="600"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                            <span class="badge bg-danger"
+                                ><i class="bi bi-pin-map-fill me-1"></i
+                                >Konum</span
+                            >
                         </div>
                     </div>
                 </div>
-
-                <div class="col">
-                    <div
-                        class="card card-bordeer-danger h-100 border-0 shadow-sm bg-dark-subtle"
-                    >
-                        <div class="card-body p-4">
-                            <div class="d-flex align-items-center mb-3">
-                                <div
-                                    class="bg-danger bg-opacity-10 p-3 rounded-circle text-danger me-3"
-                                ></div>
-                                <h5 class="card-title mb-0 fw-bold">
-                                    Hesap Makinesi
-                                </h5>
-                            </div>
-                            <p class="card-text text-secondary">
-                                Python ile Tkinter kütüphanesi kullanılarak
-                                yapılan masaüstü hesap makinesi uygulaması.
-                            </p>
-                            <div class="mt-auto pt-3">
-                                <span class="badge text-bg-danger">Python</span>
-                                <span class="badge text-bg-secondary"
-                                    >Tkinter</span
-                                >
-                                <a
-                                    href="#"
-                                    class="btn btn-sm btn-outline-light float-end"
-                                    >İndir</a
-                                >
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div
-                        class="card card-border-success h-100 border-0 shadow-sm bg-dark-subtle"
-                    >
-                        <div class="card-body p-4">
-                            <div class="d-flex align-items-center mb-3">
-                                <div
-                                    class="bg-success bg-opacity-10 p-3 rounded-circle text-success me-3"
-                                ></div>
-                                <h5 class="card-title mb-0 fw-bold">
-                                    To-Do List
-                                </h5>
-                            </div>
-                            <p class="card-text text-secondary">
-                                Görev takip listesi.
-                            </p>
-                            <div class="mt-auto pt-3">
-                                <span class="badge text-bg-warning">JS</span>
-                                <a
-                                    href="#"
-                                    class="btn btn-sm btn-outline-light float-end"
-                                    >Demo</a
-                                >
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div
-                        class="card card-border-purple h-100 border-0 shadow-sm bg-dark-subtle"
-                    >
-                        <div class="card-body p-4">
-                            <div class="d-flex align-items-center mb-3">
-                                <div
-                                    class="bg-secondary bg-opacity-10 p-3 rounded-circle text-warning me-3"
-                                ></div>
-                                <h5 class="card-title mb-0 fw-bold">
-                                    2D Platform Oyunu
-                                </h5>
-                            </div>
-                            <p class="card-text text-secondary">
-                                Unity ve C# ile geliştirilen, pixel art
-                                grafiklere sahip platform oyunu.
-                            </p>
-                            <div class="mt-auto pt-3">
-                                <span class="badge text-bg-light text-dark"
-                                    >Unity</span
-                                >
-                                <span class="badge text-bg-info">C#</span>
-                                <a
-                                    href="#"
-                                    class="btn btn-sm btn-outline-light float-end"
-                                    >Oyna</a
-                                >
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div
-                        class="card card-border-warning h-100 border-0 shadow-sm bg-dark-subtle"
-                    >
-                        <div class="card-body p-4">
-                            <div class="d-flex align-items-center mb-3">
-                                <div
-                                    class="bg-warning bg-opacity-10 p-3 rounded-circle text-warning me-3"
-                                ></div>
-                                <h5 class="card-title mb-0 fw-bold">
-                                    CSS Grid Galeri
-                                </h5>
-                            </div>
-                            <p class="card-text text-secondary">
-                                CSS Flexbox kullanan galeri.
-                            </p>
-                            <div class="mt-auto pt-3">
-                                <span class="badge text-bg-primary">CSS3</span>
-                                <span class="badge text-bg-success">
-                                    Flexbox
-                                </span>
-                                <a
-                                    href="/gallery"
-                                    class="btn btn-sm btn-outline-light float-end"
-                                    >Göz At</a
-                                >
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="text-center mt-5">
-                <p class="text-muted">
-                    Daha fazla proje için GitHub profilimi ziyaret
-                    edebilirsiniz.
-                </p>
-                <a
-                    href="https://github.com"
-                    target="_blank"
-                    class="btn btn-dark border-secondary btn-lg"
-                >
-                    <i class="bi bi-github me-2"></i>GitHub Profilim
-                </a>
             </div>
         </main>
 

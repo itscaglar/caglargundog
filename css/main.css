@@ -45,6 +45,11 @@
     width: 100%;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 10; 
+}
+
 .font-retro {
     font-family: 'Courier Prime', 'Courier New', monospace;
 }
@@ -148,4 +153,28 @@
 .fade-in-left {
     animation: fadeInLeft 1s ease-out forwards;
     opacity: 0;
+}
+
+.card-border-info {
+    border-top: 4px solid var(--bs-info) !important;
+}
+
+.card-border-primary {
+    border-top: 4px solid var(--bs-primary) !important;
+}
+
+.card-bordeer-danger {
+    border-top: 4px solid var(--bs-danger) !important;
+}
+
+.card-border-success {
+    border-top: 4px solid var(--bs-success) !important;
+}
+
+.card-border-purple {
+    border-top: 4px solid var(--bs-purple) !important;
+}
+
+.card-border-warning {
+    border-top: 4px solid var(--bs-warning) !important;
 }
