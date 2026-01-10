@@ -20,16 +20,16 @@ Based on the PDF provided, here is a comprehensive checklist for your "Web Progr
 
 ### **2. General Requirements & Hosting**
 
-* [ ] **Hosting:** The site must be published on the internet using your own domain name.
+* [X] **Hosting:** The site must be published on the internet using your own domain name.
 
 
-* [ ] **Tech Stack:** Use HTML5, CSS3, and Bootstrap.
+* [X] **Tech Stack:** Use HTML5, CSS3, and Bootstrap.
 
 
-* [ ] **Originality:** Do **not** use a fully ready-made template. You may use modules, but the work must be original.
+* [X] **Originality:** Do **not** use a fully ready-made template. You may use modules, but the work must be original.
 
 
-* [ ] **External Files:** Do not submit the web files themselves; only the link is accepted.
+* [X] **External Files:** Do not submit the web files themselves; only the link is accepted.
 
 
 
@@ -60,7 +60,7 @@ Your menu must include the following (or similar) sections:
 
 **Global Elements (Every Page)**
 
-* [ ] **UTF-8 Support:** Ensure language support on every page.
+* [X] **UTF-8 Support:** Ensure language support on every page.
 
 
 * [ ] **HEAD Tags:** Include all SEO expressions, library addresses, and favicon.
