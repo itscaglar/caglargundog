@@ -97,7 +97,7 @@
                                         class="dropdown-item"
                                         href="https://www.adu.edu.tr/"
                                         target="_blank"
-                                        rel="noopener noreferrer"
+                                        rel="noopener noreferrer nofollow"
                                     >
                                         ADÜ Resmi Websitesi
                                     </a>
@@ -107,7 +107,7 @@
                                         class="dropdown-item"
                                         href="https://getbootstrap.com/"
                                         target="_blank"
-                                        rel="noopener noreferrer"
+                                        rel="noopener noreferrer nofollow"
                                     >
                                         Bootstrap
                                     </a>
@@ -761,12 +761,20 @@
                                 target="_blank"
                                 ><i class="bi bi-github"></i
                             ></a>
+                            <a
+                                href="/gallery/apples"
+                                class="social-icon-hover text-danger fs-4"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                data-bs-title="Elmaları sever misin?"
+                                ><i class="bi bi-person-raised-hand"></i
+                            ></a>
                         </div>
                         <div class="mt-3">
                             Fakülte:
                             <a
                                 class="hover-effect text-body-secondary text-decoration-none"
-                                href="https://myo.adu.edu.tr/aymes"
+                                href="https://myo.adu.edu.tr/aymes nofollow"
                                 target="_blank"
                             >
                                 ADÜ Aydın MYO
@@ -785,6 +793,13 @@
         ></script>
 
         <script>
+            const tooltipTriggerList = document.querySelectorAll(
+                '[data-bs-toggle="tooltip"]'
+            );
+            const tooltipList = [...tooltipTriggerList].map(
+                (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+            );
+
             const imageModal = document.getElementById('imageModal');
             if (imageModal) {
                 imageModal.addEventListener('show.bs.modal', (event) => {
