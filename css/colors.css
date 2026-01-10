@@ -24,14 +24,14 @@
     --bs-gray-800: #343a40;
     --bs-gray-900: #212529;
 
-    --bs-primary: #e63946; /* Vintage Red/Pink */
-    --bs-secondary: #457b9d; /* Faded Denim */
-    --bs-success: #2a9d8f; /* Sea Glass Green */
-    --bs-info: #a8dadc; /* Powder Blue */
-    --bs-warning: #e9c46a; /* Mustard/Sand */
-    --bs-danger: #d00000; /* Deep Brick */
-    --bs-light: #f1faee; /* Off-White */
-    --bs-dark: #1d3557; /* Navy */
+    --bs-primary: #e63946;
+    --bs-secondary: #457b9d;
+    --bs-success: #2a9d8f;
+    --bs-info: #a8dadc;
+    --bs-warning: #e9c46a;
+    --bs-danger: #d00000;
+    --bs-light: #f1faee;
+    --bs-dark: #1d3557;
 
     --bs-primary-rgb: 230, 57, 70;
     --bs-secondary-rgb: 69, 123, 157;
@@ -42,7 +42,6 @@
     --bs-light-rgb: 241, 250, 238;
     --bs-dark-rgb: 29, 53, 87;
 
-    /* Text Emphasis Colors */
     --bs-primary-text-emphasis: #5a181e;
     --bs-secondary-text-emphasis: #1b303d;
     --bs-success-text-emphasis: #103e39;
@@ -52,7 +51,6 @@
     --bs-light-text-emphasis: #495057;
     --bs-dark-text-emphasis: #495057;
 
-    /* Subtle Backgrounds */
     --bs-primary-bg-subtle: #fad7da;
     --bs-secondary-bg-subtle: #dae4eb;
     --bs-success-bg-subtle: #d4ebe8;
@@ -62,7 +60,6 @@
     --bs-light-bg-subtle: #fcfcfd;
     --bs-dark-bg-subtle: #ced4da;
 
-    /* Subtle Borders */
     --bs-primary-border-subtle: #f5afb5;
     --bs-secondary-border-subtle: #b5cadd;
     --bs-success-border-subtle: #aaddd7;
@@ -75,7 +72,7 @@
     --bs-white-rgb: 255, 255, 255;
     --bs-black-rgb: 29, 53, 87;
 
-    --bs-font-sans-serif: 'Courier Prime', 'Courier New', Courier, monospace; /* Retro Monospace vibe */
+    --bs-font-sans-serif: 'Courier Prime', 'Courier New', Courier, monospace;
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
         'Liberation Mono', 'Courier New', monospace;
     --bs-gradient: linear-gradient(
@@ -89,10 +86,9 @@
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
 
-    /* CORE BODY COLORS - Light Mode */
-    --bs-body-color: #333333; /* Soft Black */
+    --bs-body-color: #333333;
     --bs-body-color-rgb: 51, 51, 51;
-    --bs-body-bg: #fdf6e3; /* Solarized Cream / Old Paper */
+    --bs-body-bg: #fdf6e3;
     --bs-body-bg-rgb: 253, 246, 227;
 
     --bs-emphasis-color: #000;
@@ -116,18 +112,18 @@
     --bs-highlight-color: #333333;
     --bs-highlight-bg: #e9c46a;
 
-    --bs-border-width: 2px; /* Chunkier borders for retro feel */
+    --bs-border-width: 2px;
     --bs-border-style: solid;
     --bs-border-color: #dcd0b3;
     --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
-    --bs-border-radius: 0rem; /* Boxier corners for retro feel */
+    --bs-border-radius: 0rem;
     --bs-border-radius-sm: 0rem;
     --bs-border-radius-lg: 0.2rem;
     --bs-border-radius-xl: 1rem;
     --bs-border-radius-xxl: 2rem;
     --bs-border-radius-2xl: var(--bs-border-radius-xxl);
     --bs-border-radius-pill: 50rem;
-    --bs-box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15); /* Hard shadows */
+    --bs-box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
     --bs-box-shadow-sm: 2px 2px 0px rgba(0, 0, 0, 0.1);
     --bs-box-shadow-lg: 6px 6px 0px rgba(0, 0, 0, 0.15);
     --bs-box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.075);
@@ -141,13 +137,10 @@
 }
 
 [data-bs-theme='dark'] {
-    /* RETRO PALETTE (Dark Mode) */
-    /* Synthwave / Terminal Vibe */
-
     color-scheme: dark;
     --bs-body-color: #e0e1dd;
     --bs-body-color-rgb: 224, 225, 221;
-    --bs-body-bg: #1d2021; /* Gruvbox Dark / Charcoal */
+    --bs-body-bg: #1d2021;
     --bs-body-bg-rgb: 29, 32, 33;
 
     --bs-emphasis-color: #fff;
@@ -161,17 +154,15 @@
     --bs-tertiary-bg: #32302f;
     --bs-tertiary-bg-rgb: 50, 48, 47;
 
-    /* Retro Dark Mode Colors */
-    --bs-primary: #fe8019; /* Bright Retro Orange */
-    --bs-secondary: #83a598; /* Muted Cyan */
-    --bs-success: #b8bb26; /* Olive Lime */
-    --bs-info: #fabd2f; /* Bright Yellow */
-    --bs-warning: #d3869b; /* Muted Pink */
-    --bs-danger: #fb4934; /* Bright Red */
+    --bs-primary: #fe8019;
+    --bs-secondary: #83a598;
+    --bs-success: #b8bb26;
+    --bs-info: #fabd2f;
+    --bs-warning: #d3869b;
+    --bs-danger: #fb4934;
     --bs-light: #ebdbb2;
     --bs-dark: #282828;
 
-    /* RGBs for Dark Mode */
     --bs-primary-rgb: 254, 128, 25;
     --bs-secondary-rgb: 131, 165, 152;
     --bs-success-rgb: 184, 187, 38;
