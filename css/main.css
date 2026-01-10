@@ -121,6 +121,10 @@
     border-bottom: 1px solid var(--bs-white);
 }
 
+.active {
+    background-color: var(--bs-border-color-translucent);
+}
+
 .hover-effect {
     transition: all 0.3s ease;
 }
