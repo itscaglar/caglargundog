@@ -64,7 +64,7 @@
 .carousel-feature-img {
     max-width: 100%;
     width: 450px;
-    height: auto;
+    height: 350px;
     object-fit: cover;
     transition: transform 0.3s ease;
 }
@@ -82,15 +82,35 @@
     border: 5px solid #d62828;
     border-radius: 50%;
     box-shadow: 0 0 30px rgba(214, 40, 40, 0.4);
-    aspect-ratio: 1 / 1;
-    width: 250px;
+    width: 300px;
+    height: 300px;
 }
 
 .img-style-neon {
     border-radius: 0.5rem;
+    width: auto;
 }
 
-/* Efektler */
+@media (max-width: 768px) {
+    .carousel-slide-content {
+        min-height: 750px;
+        align-items: flex-start;
+        padding-top: 4rem;
+    }
+
+    .carousel-feature-img {
+        width: 280px;
+        height: 280px;
+        margin-top: 2rem;
+        border-radius: 1rem;
+    }
+
+    .img-style-circle {
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+    }
+}
 
 .nav-item:hover {
     border-bottom: 1px solid var(--bs-white);
