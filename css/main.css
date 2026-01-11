@@ -189,3 +189,9 @@
         font-size: calc(1rem + 0.6vw) !important;
     }
 }
+
+@media (max-width: 1500px) {
+    .hide-social-icons {
+        display: none !important;
+    }
+}
