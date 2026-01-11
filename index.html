@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -422,25 +422,178 @@
                     </div>
                 </div>
 
+                <!-- TELSIZ START -->
                 <div class="row mt-5 text-center">
                     <div class="col">
-                        <div class="p-5 bg-body-tertiary rounded-3 border">
-                            <h3>Bir Sorunuz mu Var?</h3>
-                            <p>
-                                Benimle iletişime geçmek için aşağıdaki butonu
-                                kullanabilirsiniz.
-                            </p>
-                            <button
-                                type="button"
-                                class="btn btn-primary btn-lg"
-                                data-bs-toggle="modal"
-                                data-bs-target="#contactModal"
+                        <div
+                            class="p-4 bg-body rounded-4 shadow-lg border border-secondary"
+                        >
+                            <div
+                                class="d-flex justify-content-between mb-3 text-secondary"
                             >
-                                Mesaj Gönder
-                            </button>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <span
+                                    class="small font-retro text-uppercase fw-bold"
+                                    style="letter-spacing: 2px"
+                                >
+                                    GND-RADIO TRANSCEIVER V1.1
+                                </span>
+                                <i class="bi bi-x-circle-fill"></i>
+                            </div>
+
+                            <div class="row align-items-center">
+                                <div class="col-md-3 d-none d-md-block">
+                                    <div
+                                        class="d-flex flex-column gap-2 opacity-50"
+                                    >
+                                        <div
+                                            class="bg-white rounded-pill w-100"
+                                            style="height: 6px"
+                                        ></div>
+                                        <div
+                                            class="bg-white rounded-pill w-100"
+                                            style="height: 6px"
+                                        ></div>
+                                        <div
+                                            class="bg-white rounded-pill w-100"
+                                            style="height: 6px"
+                                        ></div>
+                                        <div
+                                            class="bg-white rounded-pill w-100"
+                                            style="height: 6px"
+                                        ></div>
+                                        <div
+                                            class="bg-white rounded-pill w-100"
+                                            style="height: 6px"
+                                        ></div>
+                                        <div
+                                            class="bg-white rounded-pill w-100"
+                                            style="height: 6px"
+                                        ></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div
+                                        class="p-3 mb-3 border border-3 border-dark rounded bg-black position-relative overflow-hidden text-start"
+                                    >
+                                        <div
+                                            class="radio-shine position-absolute top-0 start-0 w-100 h-100"
+                                        ></div>
+
+                                        <div
+                                            class="d-flex justify-content-between align-items-end text-success font-retro mb-2"
+                                            style="text-shadow: 0 0 5px #0f0"
+                                        >
+                                            <h2 class="m-0 display-4">
+                                                145.500
+                                            </h2>
+                                            <span class="fs-5">MHz FM</span>
+                                        </div>
+
+                                        <div
+                                            class="border-top border-success border-opacity-25 pt-2 mt-2"
+                                        >
+                                            <p
+                                                class="m-0 text-success font-retro small"
+                                                style="opacity: 0.8"
+                                            >
+                                                <i
+                                                    class="bi bi-broadcast me-1"
+                                                ></i>
+                                                RX: CQ CQ DE TA3GND...<br />
+                                                > QTH: AYDIN/ADU...<br />
+                                                > MESAJ BEKLENIYOR... K
+                                            </p>
+                                        </div>
+
+                                        <div
+                                            class="mt-2 d-flex align-items-center gap-1"
+                                        >
+                                            <span
+                                                class="text-success small fw-bold"
+                                            >
+                                                SIG:
+                                            </span>
+
+                                            <div
+                                                class="progress w-100 bg-dark"
+                                                style="height: 10px"
+                                            >
+                                                <div
+                                                    class="progress-bar bg-success"
+                                                    role="progressbar"
+                                                    style="
+                                                        width: 75%;
+                                                        box-shadow: 0 0 10px
+                                                            #0f0;
+                                                    "
+                                                ></div>
+                                            </div>
+                                            <span
+                                                class="text-danger small fw-bold"
+                                            >
+                                                +20dB
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div
+                                        class="d-flex flex-column align-items-center gap-3"
+                                    >
+                                        <button
+                                            type="button"
+                                            class="btn btn-danger btn-lg rounded-circle border-2 border-danger shadow active"
+                                            style="
+                                                width: 100px;
+                                                height: 100px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                            "
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#contactModal"
+                                        >
+                                            <div
+                                                class="d-flex flex-column align-items-center"
+                                            >
+                                                <i
+                                                    class="bi bi-mic-fill fs-1"
+                                                ></i>
+                                                <span
+                                                    class="small fw-bold mt-1"
+                                                >
+                                                    PTT
+                                                </span>
+                                            </div>
+                                        </button>
+                                        <span
+                                            class="text-secondary small font-retro"
+                                        >
+                                            İLETİŞİM İÇİN BAS
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="d-flex justify-content-between opacity-50 mt-2 px-4"
+                            >
+                                <div
+                                    class="bg-white rounded-bottom"
+                                    style="width: 40px; height: 10px"
+                                ></div>
+                                <div
+                                    class="bg-white rounded-bottom"
+                                    style="width: 40px; height: 10px"
+                                ></div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- TELSIZ END -->
             </div>
         </main>
         <div

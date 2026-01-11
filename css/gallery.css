@@ -1,4 +1,4 @@
-.modal-content {
+#modalImage {
     max-height: 85vh;
     width: auto;
     object-fit: contain;
